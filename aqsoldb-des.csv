@@ -1,0 +1,27 @@
+﻿Column Name,Description,Type
+ID,ID from source (also shows the source),string
+Name,Name of compound,string
+InChI,The IUPAC International Chemical Identifier,string
+InChIKey,Hashed form of InChI value,string
+SMILES,SMILES representation of compound,string
+Solubility,Experimental aqueous solubility value (LogS),float
+SD,Standard deviation of multiple occurrences,float
+Occurrences,Number of occurrences of compound,integer
+Group,"Generated reliability group (G1, G2, G3, G4, G5)",string
+Mol Wt,Molecular weight,float
+Mol LogP,Octanol-water partition coefficient,float
+Mol MR,Molar refractivity,float
+Heavy Atom Count,Number of non-H atoms,integer
+Num H Acceptors,Number of H acceptors,integer
+Num H Donors,Number of H donors,integer
+Num Heteroatoms,Number of atoms not carbon or hydrogen,integer
+Num Rotatable Bonds,Number of rotatable bonds,integer
+Num Valence Electrons,Number of valence electrons,integer
+Num Aromatic Rings,Number of aromatic rings,integer
+Num Saturated Rings,Number of saturated rings,integer
+Num Aliphatic Rings,Number of aliphatic rings,integer
+Ring Count,Number of total rings,integer
+TPSA,Topological polar surface area,float
+Labute ASA,Labute’s Approximate Surface Area,float
+Balaban J,Balaban’s J index (graph index),float
+Bertz CT,A topological complexity index of compound,float
